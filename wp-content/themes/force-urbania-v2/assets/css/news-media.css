@@ -1,0 +1,138 @@
+
+.section-banner .item {
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.findDelaerheading {
+    z-index: 9;
+    position: absolute;
+    top: 50%;
+    left: 100px;
+    transform: translateY(-50%);
+    max-width: 510px;
+    width: 100%;
+    color: #ffffff;
+}
+.findDelaerheading h1 {
+    font-size: 51px;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: left;
+}
+.media_mention h1{
+   text-align: center;
+    font-size: 36px;
+    margin: 30px 0 50px;
+    font-family: "AcherusGrotesque-Bold";
+}
+.mediamentionsblog ul li{
+    display:inline-block;
+    margin: 0px 20px 20px 0;
+}
+.mediamentionsblog ul li:nth-child(1){
+    font-family: "AcherusGrotesque-Bold";
+}
+.mediamentionsblog ul li:nth-child(2){
+    font-family: "AcherusGrotesque-Medium";
+    font-style: italic;
+}
+.mediamentionsblog{
+    border: 1px solid #707070;
+    margin-bottom: 25px;
+}
+.slidercontent{
+    padding: 15px; 
+}
+.slidercontent h4{
+   font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 10px; 
+    font-family: "AcherusGrotesque-ExtraBold";
+}
+.slidercontent a{
+    text-decoration: underline;
+    font-family: "AcherusGrotesque-ExtraBold";
+}
+.slidercontent a:hover{
+    color: #000;;
+}
+.slidercontent p{
+    padding-bottom: 15px;
+}
+.owl-carousel .owl-nav.disabled {
+    display: block;
+}
+.paginationDiv{
+    margin: 0 auto 50px;
+    text-align: center;
+    display: table;
+}
+.section-banner1 img{
+    width: 100%;
+}
+.paginationDiv .page-link {
+    color: #000000;
+    border:2px solid #000000;
+    border-radius: 5px;
+    width: 100%;
+    text-transform: uppercase;
+       font-family: "AcherusGrotesque-Bold";
+}
+
+.paginationDiv .page-link:focus, .paginationDiv .page-link:active, .paginationDiv .page-link:visited{
+   border-color: #000;
+    z-index: 3;
+    outline: 0;
+    box-shadow: none;
+    font-weight: bold;
+    color: #000;
+    
+}
+.section-row {
+    padding-bottom: 27px;
+}
+button:disabled,
+button[disabled]{
+    cursor: not-allowed;
+       /* background-color: rgb(229, 229, 229) !important;*/ 
+        border: 2px solid #707070 !important;
+    color: #707070 !important;
+}
+
+.pagination li {
+    width: 140px;
+    margin: 0 25px;
+    
+}
+.pagination li a{
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.pagination li:nth-child(1) span{
+    margin-right: 11px;
+}
+.pagination li:nth-child(2) span{
+    margin-left: 11px;
+}
+
+.slidercontent ul{
+    display: flex;
+    align-self: center;
+    align-items: center;
+}
+
+
+@media(max-width:767px){
+    .findDelaerheading {
+       left: 0;
+    padding: 10px;
+    }
+    .findDelaerheading h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+    .pagination li {
+        width: 120px;
+        margin: 0 10px;
+    }
+}

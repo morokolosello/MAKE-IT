@@ -1,0 +1,359 @@
+.findDelaerheading{
+    z-index: 9;
+    position: absolute;
+    top: 50%;
+    /* left: 155px; */
+    transform: translateY(-50%);
+    max-width: 510px;
+    width: 100%;
+    color: #ffffff;
+}
+.section-banner1 img{
+    width: 100%;
+}
+/*
+.section-banner1 .item-1 {
+    background-image: url(../images/dealer-locatorBanner.jpg);
+}*/
+
+.findDelaerheading h1{
+    /* font-size: 51px; */
+    font-size: 1.6rem; 
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: left;
+}
+.search-container{
+    float: left;
+    width: 100%;
+    text-align: left;
+    margin-top: 40px;
+}
+.search-container select, .search-container input{
+    width: 60%;
+    padding: 15px;
+    border: 0;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    outline: none;
+}
+.search-container .fa-search{
+   margin-right: 10px;
+}
+.search-container button{
+   background-color: #000000;
+    color: #fff;
+    margin: 0;
+    width: 27%;
+    padding: 16px;
+    border: 0;
+    border-top-right-radius: 7px;
+    border: 2px solid #fff;
+    border-bottom-right-radius: 7px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+}
+.dealerlocatorboxes{
+    padding-bottom: 50px;
+}
+.dealerlocatorboxes h1{
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+    margin: 26px 0;
+    font-family: "AcherusGrotesque-Bold";
+        line-height: 1.2;
+}
+.dealerlocatorboxes .card-body p{
+    
+}
+.dealerlocatorboxes h6{
+     font-family: "AcherusGrotesque-ExtraBold"; 
+    font-size: 16px;
+    margin: 17px 0;
+}
+.dealerlocatorboxes .media i{
+    line-height: 1.5;
+    font-size: 20px;
+}
+.dealerlocatorboxes .media .media-body{
+    margin-left: 10px;
+    float: right;
+}
+.dealerlocatorboxes .card-body h2{
+    font-size: 25px;
+    margin-bottom: 25px;
+    line-height: 1.1;
+    font-family: "AcherusGrotesque-Regular";
+    font-weight: bold;
+    height: 52px;
+}
+.card{
+    border-color: #707070;
+    height: 285px;
+}
+
+.section-banner1 img{
+    width: 100%;
+}
+
+
+
+select {
+    display: none !important;
+}
+
+.dropdown-select {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#40FFFFFF', endColorstr='#00FFFFFF', GradientType=0);
+    background-color: #fff;
+    border-radius: 6px;
+    border: solid 1px #eee;
+    box-shadow: 0px 2px 5px 0px rgba(155, 155, 155, 0.5);
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-size: 14px;
+    font-weight: normal;
+    height: 42px;
+    line-height: 40px;
+    outline: none;
+    padding-left: 18px;
+    padding-right: 30px;
+    position: relative;
+    text-align: left !important;
+    transition: all 0.2s ease-in-out;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    width: auto;
+   color: #000000
+}
+
+.dropdown-select:focus {
+    background-color: #fff;
+}
+
+.dropdown-select:hover {
+    background-color: #fff;
+}
+
+.dropdown-select:active,
+.dropdown-select.open {
+    background-color: #fff !important;
+    border-color: #bbb;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05) inset;
+}
+
+.dropdown-select:after {
+    height: 0;
+    width: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #777;
+    -webkit-transform: origin(50% 20%);
+    transform: origin(50% 20%);
+    transition: all 0.125s ease-in-out;
+    content: '';
+    display: block;
+    margin-top: -2px;
+    pointer-events: none;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+}
+
+.dropdown-select.open:after {
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+
+.dropdown-select.open .list {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.dropdown-select.open .option {
+    cursor: pointer;
+}
+
+.dropdown-select.wide {
+   padding: 11px 10px;
+    width: 57%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 60px; 
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.dropdown-select.wide .list {
+    left: 0 !important;
+    right: 0 !important;
+}
+
+.dropdown-select .list {
+    box-sizing: border-box;
+    transition: all 0.15s cubic-bezier(0.25, 0, 0.25, 1.75), opacity 0.1s linear;
+    -webkit-transform: scale(0.75);
+    transform: scale(0.75);
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.09);
+    background-color: #fff;
+    border-radius: 6px;
+    margin-top: 4px;
+    padding: 3px 0;
+    opacity: 0;
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 999;
+    max-height: 250px;
+    overflow: auto;
+    border: 1px solid #ddd;
+}
+
+.dropdown-select .list:hover .option:not(:hover) {
+    background-color: transparent !important;
+}
+.dropdown-select .dd-search{
+  overflow:hidden;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin:0.5rem;
+}
+
+.dropdown-select .dd-searchbox{
+  width: 100%;
+    padding: 0 15px;
+    border: 1px solid #999;
+    border-color: #999;
+    border-radius: 4px;
+    outline: none;
+}
+.dropdown-select .dd-searchbox:focus{
+  border-color:#12CBC4;
+}
+
+.dropdown-select .list ul {
+    padding: 0;
+}
+
+.dropdown-select .option {
+    cursor: default;
+    font-weight: 400;
+    line-height: 40px;
+    outline: none;
+    padding-left: 18px;
+    padding-right: 29px;
+    text-align: left;
+    transition: all 0.2s;
+    list-style: none;
+    color: #000000;
+}
+
+.dropdown-select .option:hover,
+.dropdown-select .option:focus {
+    background-color: #f6f6f6 !important;
+}
+
+.dropdown-select .option.selected {
+        font-weight: 800;
+    color: #000000;
+}
+
+.dropdown-select .option.selected:focus {
+    background: #f6f6f6;
+}
+
+.dropdown-select a {
+    color: #aaa;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.dropdown-select a:hover {
+    color: #666;
+}
+.serach{
+    float: right;
+} 
+
+
+@media(max-width:1920px){
+    .findDelaerheading {        
+        left: 155px;
+    }
+}
+
+@media(max-width:1440px){
+    .findDelaerheading {        
+        left: 130px;
+    }
+    
+}
+
+@media(max-width:1440px){
+    .findDelaerheading {        
+        left: 85px;
+    }
+    
+}
+@media(max-width:1280px){
+    .findDelaerheading {        
+        left: 50px;
+    }
+    
+}
+
+
+@media(max-width:767px){
+
+    .findDelaerheading {
+        /* background-color: #000; */
+        position: relative!important;
+        /* float: left; */
+         transform: inherit !important;
+         padding-bottom: 40px !important;
+         left: 0;
+         padding: 10px; 
+         max-width: 100%;
+         margin-bottom: 3rem;
+    }
+    
+    
+    .findDelaerheading h1 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+    .dropdown-select.wide {
+    width: 69%;
+}
+
+.search-container {
+    float: none;
+    width: 94%;
+    margin: 40px auto 0;
+}
+    .search-container button {
+        width: 31%;
+        padding: 16px;
+    }
+   
+
+  
+    
+}
+

@@ -1,0 +1,29 @@
+section.privacy-policy {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 50px;
+        color: #183029;
+}
+
+.policyWrapper {
+    margin-bottom: 50px;
+}
+
+.policyWrapper h3 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.footer {
+    margin-top: 0;
+}
+
+@media(max-width: 767px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}
